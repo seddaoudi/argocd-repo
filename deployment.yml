@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: seddaoudi/new_docedit:staging-aaa1fa3-11_docedit:staging-5849a10-10
+        image: seddaoudi/new_docedit:latest
         ports:
         - containerPort: 8080
