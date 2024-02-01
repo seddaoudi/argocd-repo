@@ -4,13 +4,13 @@ metadata:
   name: myapp-ingress
 spec:
   rules:
-    - host: demo.example.com
+    - host: 3.218.15.164
       http:
         paths:
-          - path: /app
+          - path: /myapp
             pathType: Prefix
             backend:
               service:
-                name: app-service
+                name: service
                 port:
                   number: 80
